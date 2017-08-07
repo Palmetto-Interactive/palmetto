@@ -1,0 +1,17 @@
+#contact-greeting h1 {
+  text-transform: uppercase;
+  font-size: 68px; }
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  border-color: #0A4746 !important;
+  box-shadow: 0 0 8px #0A4746 !important; }
+#contact-form label {
+  color: #789895; }
+#contact-form textarea {
+  resize: none;
+  margin-bottom: 15px; }
+#contact-form button {
+  background-color: transparent; }
+
+/*# sourceMappingURL=contact.css.map */

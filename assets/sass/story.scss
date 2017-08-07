@@ -1,0 +1,15 @@
+@import '_variables.scss';
+
+#story {
+  h1 {
+    text-transform: uppercase;
+    font-size: $pageheading;
+  }
+}
+
+#meet-us {
+  h4 {
+    font-style: italic;
+    padding-bottom: 20px;
+  }
+}
