@@ -22,6 +22,9 @@ section {
 .navbar {
   border: none; }
 
+.navbar-brand {
+  padding-top: 0; }
+
 .navbar.navbar-default {
   margin-bottom: 0;
   padding-top: 10px; }
