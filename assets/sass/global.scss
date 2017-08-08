@@ -2,7 +2,7 @@
 
 body {
   font-size: 18px;
-  line-height: 34px;
+  line-height: 28px;
   font-family: 'Domine', serif;
 }
 
@@ -75,30 +75,90 @@ section {
   border: 1px solid $green;
 }
 
+#sub-footer {
+  padding-bottom: 0;
+  color: $white;
+  h2 {
+    color: $white;
+  }
+
+  .box {
+    height: 265px;
+    text-align: center;
+  }
+
+  .box1 {
+    background-color: $light-blue;
+    border-right: 1px solid $white;
+  }
+
+  .box2 {
+    background-color: $blue;
+    border-left: 1px solid $white;
+  }
+
+}
+
 footer {
+  position: relative;
+  text-align: center;
   padding: 50px 0;
   background-color: $brand;
-  color: $white;
+  color: $grey;
   h2, a {
     color: $white;
   }
+
+  p {
+    margin-bottom: 50px;
+  }
+
+  ul {
+    margin-top: 50px;
+  }
+
   li {
+    padding-right: 25px;
     display: inline;
-    padding-right: 15px;
+  }
+
+  .copyright {
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 0;
   }
 
   .fa {
     font-size: 22px;
   }
-  
-  .footer-contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding-top: 50px;
 
+  input {
+    width: 425px;
+    height: 45px;
   }
+
+  button {
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $green;
+    border: none;
+    padding: 5px 15px;
+    text-transform: uppercase;
+  }
+}
+
+footer:before {
+    content:'';
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    z-index: 1000;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-bottom: solid 50px $brand;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
 }
 
 .center {
