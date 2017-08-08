@@ -1,5 +1,9 @@
 @import '_variables.scss';
 
+.navbar-default .navbar-nav > li > a {
+  color: $white;
+}
+
 #services {
   height: 700px;
   padding: 0 50px;
