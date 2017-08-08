@@ -1,5 +1,12 @@
 @import '_variables.scss';
 
+#services {
+  height: 700px;
+  padding: 0 50px;
+  background-image: url('../img/services-bg.jpg');
+  color: $white;
+}
+
 .no-gutters {
   // margin-right: 0;
   // margin-left: 0;
@@ -16,7 +23,7 @@ h2 {
 }
 
 .heading-wrapper h1 {
-  font-size: 70px;
+  font-size: 68px;
   margin-bottom: .75em;
 }
 
