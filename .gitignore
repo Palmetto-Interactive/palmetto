@@ -2,3 +2,10 @@
 /craft/storage/*
 !/craft/storage/logo/*
 .sass-cache
+assets/css/blog.css.map
+assets/css/contact.css.map
+assets/css/global.css.map
+assets/css/homepage.css.map
+assets/css/portfolio.css.map
+assets/css/services.css.map
+assets/css/story.css.map
