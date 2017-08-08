@@ -1,3 +1,29 @@
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0; }
 
+h2 {
+  line-height: 50px; }
+
+.heading-wrapper h1 {
+  font-size: 70px;
+  margin-bottom: .75em; }
+
+.services-content {
+  padding: 0 75px; }
+  .services-content h1 {
+    margin-top: 50px; }
+  .services-content p {
+    margin: 30px 0; }
+  .services-content li {
+    line-height: 35px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase; }
+
+.border-bottom hr {
+  margin-top: 0;
+  margin-left: 0;
+  width: 50px; }
 
 /*# sourceMappingURL=services.css.map */

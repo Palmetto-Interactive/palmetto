@@ -6,6 +6,10 @@ body {
   font-family: 'Domine', serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 // Type
 
 h1,
@@ -26,6 +30,7 @@ li {
 
 
 section {
+  margin: 50px 0;
   padding: 75px 0;
 }
 
