@@ -55,6 +55,7 @@ section {
   border: 1px solid #0A4746; }
 
 #sub-footer {
+  padding-top: 0;
   padding-bottom: 0;
   color: #fff; }
   #sub-footer h2 {
