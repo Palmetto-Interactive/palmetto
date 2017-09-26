@@ -55,6 +55,13 @@ section {
 
 .navbar {
   border: none;
+  padding: 0 50px;
+  background-color: $plum;
+  border-radius: 0;
+}
+
+.navbar-right {
+  padding: 30px 0;
 }
 
 .navbar-brand {
@@ -67,8 +74,7 @@ section {
 }
 
 .navbar-default {
-  background-color: transparent;
-  border-color: transparent;
+
   .navbar-toggle {
     border: none;
   }
@@ -81,10 +87,8 @@ section {
 .navbar-default .navbar-nav > li > a {
   color: $body;
 }
-
-.navbar-nav > li > a {
-  padding-top: 10px;
-  padding-bottom: 10px;
+.navbar-default .navbar-nav > li > a:hover {
+  color: $light-purple;
 }
 
 .nav > li > a {
