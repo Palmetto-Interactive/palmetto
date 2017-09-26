@@ -81,15 +81,15 @@ a.btn.contact {
   #sub-footer h2 {
     color: #fff; }
   #sub-footer .btn {
-    background-color: #5acbad;
+    background-color: #2b2f3e;
     color: #fff;
     text-transform: uppercase;
-    border-color: #5acbad; }
+    border-color: #2b2f3e; }
   #sub-footer .btn:hover {
     transition: background-color 0.5s ease;
     background-color: transparent;
-    color: #5acbad;
-    border-color: #5acbad; }
+    color: #2b2f3e;
+    border-color: #2b2f3e; }
   #sub-footer .box {
     height: 265px;
     padding-top: 30px;
@@ -134,9 +134,14 @@ footer {
     font-family: 'Montserrat', sans-serif;
     background-color: #727df0;
     color: #fff;
-    border: none;
+    border: 1px solid #727df0;
     padding: 5px 15px;
     text-transform: uppercase; }
+  footer button:hover {
+    transition: background-color 0.5s ease;
+    background-color: transparent;
+    color: #727df0;
+    border: 1px solid #727df0; }
 
 footer:before {
   content: '';

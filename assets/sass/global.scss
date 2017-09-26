@@ -109,16 +109,16 @@ a.btn.contact {
     color: $white;
   }
   .btn {
-    background-color: $green;
+    background-color: $plum;
     color: $white;
     text-transform: uppercase;
-    border-color: $green;
+    border-color: $plum;
   }
   .btn:hover {
     transition: background-color 0.5s ease;
     background-color: transparent;
-    color: $green;
-    border-color: $green;
+    color: $plum;
+    border-color: $plum;
   }
 
   .box {
@@ -186,9 +186,15 @@ footer {
     font-family: 'Montserrat', sans-serif;
     background-color: $light-purple;
     color: $white;
-    border: none;
+    border: 1px solid $light-purple;
     padding: 5px 15px;
     text-transform: uppercase;
+  }
+  button:hover {
+    transition: background-color 0.5s ease;
+    background-color: transparent;
+    color: $light-purple;
+    border: 1px solid $light-purple;
   }
 }
 
