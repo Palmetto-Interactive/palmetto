@@ -30,6 +30,46 @@ header {
 .border-bottom {
   width: 100px; }
 
+.content {
+  padding: 0 5%; }
+
+.l-col {
+  padding-left: 0;
+  padding-right: 2.5%; }
+
+.r-col {
+  padding-right: 0;
+  padding-left: 2.5%; }
+
+@media (min-width: 991px) {
+  .mobile-img {
+    display: none; } }
+@media (max-width: 991px) {
+  section {
+    padding: 25px 0; }
+
+  .content {
+    text-align: center; }
+    .content h1 {
+      font-size: 40px; }
+
+  .l-col {
+    padding-right: 0; }
+
+  .r-col {
+    padding-left: 0; }
+
+  .border-bottom {
+    display: none; }
+
+  .desktop-img {
+    display: none; }
+
+  .mobile-img {
+    padding: 30px 0; }
+
+  .shot h4 {
+    margin-bottom: 30px; } }
 #about h1 {
   margin-top: 0; }
 #about hr {
