@@ -5,18 +5,11 @@
 }
 
 #services {
-  height: 700px;
-  padding: 0 50px;
-  background-image: url('../img/services-bg.jpg');
-  text-align: center;
+  background-color: $purple;
   color: $white;
   h1 {
-    margin-top: 200px;
-    margin-bottom: 20px;
     color: $white;
-  }
-  span {
-    color: $green;
+    font-size: $pageheading;
   }
 }
 
@@ -29,17 +22,6 @@
     padding-right: 0;
     padding-left: 0;
   }
-}
-
-h2 {
-  line-height: 50px;
-  text-align: center;
-  color: $green;
-}
-
-.heading-wrapper h1 {
-  font-size: 68px;
-  margin-bottom: .75em;
 }
 
 .services-content {
@@ -75,6 +57,4 @@ h2 {
       letter-spacing: -0.5px;
     }
   }
-
-
 }

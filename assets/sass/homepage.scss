@@ -1,5 +1,10 @@
 @import '_variables.scss';
 
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
 .navbar-default .navbar-nav > li > a {
   color: $white;
 }
@@ -10,7 +15,6 @@
 
 header {
   height: 700px;
-  padding: 0 50px;
   background-image: url('../img/header-bg.jpg');
   color: $white;
 
@@ -20,7 +24,7 @@ header {
     font-size: 68px;
     line-height: 68px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 180px;
     margin-bottom: 20px;
   }
 
