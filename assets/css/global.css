@@ -102,6 +102,17 @@ a.btn.contact:hover {
     background: -webkit-linear-gradient(left, #727df0, #6461a1, #515c71);
     border-left: 1px solid #2b2f3e; }
 
+.content {
+  padding: 0 5%; }
+
+.l-col {
+  padding-left: 0;
+  padding-right: 2.5%; }
+
+.r-col {
+  padding-right: 0;
+  padding-left: 2.5%; }
+
 footer {
   position: relative;
   text-align: center;
