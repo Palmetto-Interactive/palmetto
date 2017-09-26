@@ -35,10 +35,17 @@ header {
 #about a {
   color: #515c71;
   text-decoration: underline; }
+#about a:hover {
+  color: #727df0; }
 
 #recent-work h1 {
   text-align: center;
   margin: 50px 0; }
+#recent-work .more-work {
+  color: #515c71;
+  text-decoration: underline; }
+#recent-work .more-work:hover {
+  color: #727df0; }
 
 .blog-h h1 {
   text-align: center;

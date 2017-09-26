@@ -56,12 +56,22 @@ header {
     color: $purple;
     text-decoration: underline;
   }
+  a:hover {
+    color: $light-purple;
+  }
 }
 
 #recent-work {
   h1 {
     text-align: center;
     margin: 50px 0;
+  }
+  .more-work {
+    color: $purple;
+    text-decoration: underline;
+  }
+  .more-work:hover {
+    color: $light-purple;
   }
 }
 
