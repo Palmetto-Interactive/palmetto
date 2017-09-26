@@ -91,13 +91,14 @@ section {
   padding: 10px 25px;
 }
 
-.contact {
-  color: $plum !important;
-  border: 1px solid $plum;
-}
-
 a.btn.contact {
   color: $light-purple !important;
+  border: 1px solid $light-purple;
+}
+
+a.btn.contact:hover {
+  color: $white !important;
+  background-color: $light-purple !important;
   border: 1px solid $light-purple;
 }
 
@@ -105,6 +106,7 @@ a.btn.contact {
   padding-top: 0;
   padding-bottom: 0;
   color: $white;
+ 
   h2 {
     color: $white;
   }
