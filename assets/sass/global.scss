@@ -95,9 +95,22 @@ section {
   h2 {
     color: $white;
   }
+  .btn {
+    background-color: $green;
+    color: $white;
+    text-transform: uppercase;
+    border-color: $green;
+  }
+  .btn:hover {
+    transition: background-color 0.5s ease;
+    background-color: transparent;
+    color: $green;
+    border-color: $green;
+  }
 
   .box {
     height: 265px;
+    padding-top: 30px;
     text-align: center;
   }
 
@@ -119,6 +132,13 @@ footer {
   padding: 50px 0;
   background-color: $plum;
   color: $body;
+  h2, a {
+    color: $green;
+  }
+  a:hover {
+    color: $green;
+    text-decoration: underline;
+  }
   p {
     margin-bottom: 50px;
   }
