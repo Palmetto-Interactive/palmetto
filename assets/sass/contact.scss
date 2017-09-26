@@ -12,12 +12,12 @@
   input:focus,
   textarea:focus 
    {
-    border-color: $green !important;
-    box-shadow: 0 0 8px $green !important;
+    border-color: $body !important;
+    box-shadow: 0 0 8px $body !important;
   }
 
   label {
-    color: $brand;
+    color: $body;
   }
 
   textarea {
@@ -26,6 +26,23 @@
   }
 
   button {
-    background-color: transparent;
+    height: 45px;
+    width: 100px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $light-purple;
+    color: $white;
+    border: 1px solid $light-purple;
+    padding: 5px 15px;
+    text-transform: uppercase;
   }
+  button:hover {
+    transition: background-color 0.5s ease;
+    background-color: transparent;
+    color: $light-purple;
+    border: 1px solid $light-purple;
+  }
+}
+
+#form-section {
+  padding-top: 0;
 }

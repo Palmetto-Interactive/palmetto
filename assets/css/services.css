@@ -1,12 +1,9 @@
-.navbar-default .navbar-nav > li > a {
-  color: #fff; }
-
 #services {
-  background-color: #515c71;
-  color: #fff; }
+  background-color: #fff; }
   #services h1 {
-    color: #fff;
     font-size: 68px; }
+  #services span {
+    color: #727df0; }
 
 .no-gutters > .col,
 .no-gutters > [class*="col-"] {
@@ -24,10 +21,14 @@
     letter-spacing: 1.5px;
     text-transform: uppercase; }
 
+.first {
+  border-top: 1px solid #747d93; }
+
 .border-bottom hr {
   margin-top: 0;
   margin-left: 0;
-  width: 50px; }
+  width: 50px;
+  border-color: #747d93; }
 
 @media (max-width: 1189px) {
   .mobile-img img {

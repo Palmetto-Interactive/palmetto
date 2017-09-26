@@ -1,22 +1,16 @@
 @import '_variables.scss';
 
-.navbar-default .navbar-nav > li > a {
-  color: $white;
-}
-
 #services {
-  background-color: $purple;
-  color: $white;
+  background-color: $white;
   h1 {
-    color: $white;
     font-size: $pageheading;
+  }
+  span {
+    color: $light-purple;
   }
 }
 
 .no-gutters {
-  // margin-right: 0;
-  // margin-left: 0;
-
   > .col,
   > [class*="col-"] {
     padding-right: 0;
@@ -40,10 +34,15 @@
   }
 }
 
+.first {
+  border-top: 1px solid $body;
+}
+
 .border-bottom hr {
   margin-top: 0;
   margin-left: 0;
   width: 50px;
+  border-color: $body;
 }
 
 @media (max-width: 1189px) {
