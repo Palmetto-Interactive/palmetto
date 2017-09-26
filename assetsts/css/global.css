@@ -26,7 +26,7 @@ h4 {
   color: #515c71; }
 
 h1 {
-  font-size: 45px;
+  font-size: 55px;
   letter-spacing: 2px; }
 
 ul {
@@ -66,13 +66,12 @@ section {
 .nav > li > a {
   padding: 10px 25px; }
 
+.contact {
+  color: #2b2f3e !important;
+  border: 1px solid #2b2f3e; }
+
 a.btn.contact {
   color: #727df0 !important;
-  border: 1px solid #727df0; }
-
-a.btn.contact:hover {
-  color: #fff !important;
-  background-color: #727df0 !important;
   border: 1px solid #727df0; }
 
 #sub-footer {
@@ -82,15 +81,15 @@ a.btn.contact:hover {
   #sub-footer h2 {
     color: #fff; }
   #sub-footer .btn {
-    background-color: #2b2f3e;
+    background-color: #5acbad;
     color: #fff;
     text-transform: uppercase;
-    border-color: #2b2f3e; }
+    border-color: #5acbad; }
   #sub-footer .btn:hover {
     transition: background-color 0.5s ease;
     background-color: transparent;
-    color: #2b2f3e;
-    border-color: #2b2f3e; }
+    color: #5acbad;
+    border-color: #5acbad; }
   #sub-footer .box {
     height: 265px;
     padding-top: 30px;
@@ -135,14 +134,9 @@ footer {
     font-family: 'Montserrat', sans-serif;
     background-color: #727df0;
     color: #fff;
-    border: 1px solid #727df0;
+    border: none;
     padding: 5px 15px;
     text-transform: uppercase; }
-  footer button:hover {
-    transition: background-color 0.5s ease;
-    background-color: transparent;
-    color: #727df0;
-    border: 1px solid #727df0; }
 
 footer:before {
   content: '';

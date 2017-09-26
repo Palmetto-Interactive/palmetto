@@ -4,6 +4,10 @@
   color: $white;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+  color: $light-purple;
+}
+
 header {
   height: 700px;
   padding: 0 50px;
