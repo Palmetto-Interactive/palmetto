@@ -18,7 +18,7 @@ header {
     text-align: center;
     margin-bottom: 40px; }
   header span {
-    color: #0A4746; }
+    color: #727df0; }
 
 .border-bottom {
   width: 100px; }
@@ -26,13 +26,13 @@ header {
 #about h1 {
   margin-top: 0; }
 #about hr {
-  border-color: #789895; }
+  border-color: #515c71; }
 #about p {
   margin-right: 50px; }
 #about .send-right {
   padding-left: 65px; }
 #about a {
-  color: #789895;
+  color: #515c71;
   text-decoration: underline; }
 
 #recent-work h1 {
