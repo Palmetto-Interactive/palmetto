@@ -1,8 +1,16 @@
 @import '_variables.scss';
 
-*, *:before, *:after {
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
 
 body {
   font-size: 18px;
@@ -86,6 +94,11 @@ section {
 .contact {
   color: $plum !important;
   border: 1px solid $plum;
+}
+
+a.btn.contact {
+  color: $light-purple !important;
+  border: 1px solid $light-purple;
 }
 
 #sub-footer {

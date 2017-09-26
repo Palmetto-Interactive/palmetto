@@ -1,5 +1,12 @@
-*, *:before, *:after {
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
 
 body {
   font-size: 18px;
@@ -62,6 +69,10 @@ section {
 .contact {
   color: #2b2f3e !important;
   border: 1px solid #2b2f3e; }
+
+a.btn.contact {
+  color: #727df0 !important;
+  border: 1px solid #727df0; }
 
 #sub-footer {
   padding-top: 0;
