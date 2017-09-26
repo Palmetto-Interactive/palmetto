@@ -1,11 +1,6 @@
 @import '_variables.scss';
 
-.navbar-default .navbar-nav > li > a {
-  color: $white;
-}
-
 #services {
-  // background-image: url('../img/services-bg.jpg');
   background-color: $white;
   h1 {
     font-size: $pageheading;
@@ -16,9 +11,6 @@
 }
 
 .no-gutters {
-  // margin-right: 0;
-  // margin-left: 0;
-
   > .col,
   > [class*="col-"] {
     padding-right: 0;
