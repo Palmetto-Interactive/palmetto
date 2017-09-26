@@ -5,5 +5,11 @@
 #meet-us h4 {
   font-style: italic;
   padding-bottom: 20px; }
+#meet-us .img-wrap-payton {
+  display: flex;
+  justify-content: flex-start; }
+#meet-us .img-wrap-evan {
+  display: flex;
+  justify-content: flex-end; }
 
 /*# sourceMappingURL=story.css.map */
