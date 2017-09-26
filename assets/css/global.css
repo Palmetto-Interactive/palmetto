@@ -1,8 +1,12 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
 body {
   font-size: 18px;
   line-height: 28px;
   font-family: 'Domine', serif;
-  color: #747d93; }
+  color: #747d93;
+  margin: 0; }
 
 img {
   max-width: 100%; }
