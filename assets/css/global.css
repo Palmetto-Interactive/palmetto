@@ -13,6 +13,10 @@ h4 {
   font-family: 'Montserrat', sans-serif;
   color: #789895; }
 
+h1 {
+  font-size: 55px;
+  letter-spacing: 2px; }
+
 ul {
   padding: 0; }
 
