@@ -5,11 +5,14 @@
 }
 
 #services {
-  background-color: $purple;
-  color: $white;
+  // background-image: url('../img/services-bg.jpg');
+  background-color: $white;
+  padding: 125px 0;
   h1 {
-    color: $white;
     font-size: $pageheading;
+  }
+  span {
+    color: $light-purple;
   }
 }
 
@@ -40,10 +43,15 @@
   }
 }
 
+.first {
+  border-top: 1px solid $body;
+}
+
 .border-bottom hr {
   margin-top: 0;
   margin-left: 0;
   width: 50px;
+  border-color: $body;
 }
 
 @media (max-width: 1189px) {
