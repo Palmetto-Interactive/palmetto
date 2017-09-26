@@ -1,6 +1,8 @@
-#story h1 {
-  text-transform: uppercase;
-  font-size: 68px; }
+#story {
+  padding-top: 150px; }
+  #story h1 {
+    text-transform: uppercase;
+    font-size: 68px; }
 
 #meet-us h4 {
   font-style: italic;
@@ -11,5 +13,9 @@
 #meet-us .img-wrap-evan {
   display: flex;
   justify-content: flex-end; }
+
+#meet-us-top,
+#story-shot {
+  padding-top: 0 !important; }
 
 /*# sourceMappingURL=story.css.map */

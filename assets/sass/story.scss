@@ -1,6 +1,7 @@
 @import '_variables.scss';
 
 #story {
+  padding-top: 150px;
   h1 {
     text-transform: uppercase;
     font-size: $pageheading;
@@ -21,4 +22,9 @@
     display: flex;
     justify-content: flex-end;
   }
+}
+
+#meet-us-top,
+#story-shot {
+  padding-top: 0 !important;
 }
