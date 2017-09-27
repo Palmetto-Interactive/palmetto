@@ -217,6 +217,18 @@ footer:before {
     border-right: solid 50px transparent;
 }
 
+@media(max-width: 991px) {
+  footer:before {
+    display: none;
+  }
+}
+
+@media(max-width: 566px) {
+  footer input {
+    width: 65%;
+  }
+}
+
 .center {
   display: flex;
   justify-content: center;
