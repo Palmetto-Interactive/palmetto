@@ -45,10 +45,13 @@
   border-color: $body;
 }
 
-@media (max-width: 1189px) {
-  .mobile-img img {
+@media(max-width: 991px) {
+   .mobile-img img {
     margin-top: 50px;
   }
+}
+
+@media (max-width: 1189px) {
   .services-content {
     padding: 0 20px;
     li {
